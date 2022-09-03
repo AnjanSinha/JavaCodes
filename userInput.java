@@ -16,6 +16,5 @@ public class userInput {
         System.out.println("Hello "+name+" You are "+age+" years old.");
         System.out.println("Your fav food is "+food);
 
-
     }
 }
