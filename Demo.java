@@ -1,6 +1,6 @@
 class Test
 {
-    int a=23; 
+    int a=50; 
     String b ="anjan";
     void show(){
         System.out.print(a+" "+b);
