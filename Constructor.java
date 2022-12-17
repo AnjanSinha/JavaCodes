@@ -1,18 +1,21 @@
 class A{
-    int a; String name;
-    /*A()
+    int a,x; String name,y;
+    A()
     {
         a = 45;
         name = "anjan";
-    }*/
-    void show()
-    { 
         System.out.println(a+" "+name);
+    }
+    A(A ref)
+    {
+        x=ref.a;
+        y=ref.name;
+        System.out.println(x+" "+y);
     }
 }
 class Constructor {
     public static void main(String[] args) {
-        A ref = new A();
-        ref.show();
+        A r = new A();
+        A r2 = new A(r);
     }
 }
